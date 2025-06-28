@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Chat App</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="chat-container">
+    <h2>💬 Real-Time Chat</h2>
+
+    <div id="login-box">
+      <input type="text" id="username" placeholder="Enter your name" />
+      <input type="text" id="avatar" placeholder="Avatar URL (optional)" />
+      <select id="room">
+        <option value="general"># General</option>
+        <option value="cricket"># Cricket</option>
+        <option value="study"># Study</option>
+      </select>
+      <button onclick="joinChat()">Join</button>
+    </div>
+
+    <div id="chat-box" class="hidden"></div>
+
+    <div class="input-area hidden">
+      <input type="text" id="message" placeholder="Type message..." />
+      <button onclick="sendMessage()">Send</button>
+      <button onclick="addEmoji()">😊</button>
+    </div>
+  </div>
+
+  <audio id="notification" src="https://actions.google.com/sounds/v1/cartoon/clang_and_wobble.ogg"></audio>
+
+  <script src="https://cdn.socket.io/4.7.2/socket.io.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
