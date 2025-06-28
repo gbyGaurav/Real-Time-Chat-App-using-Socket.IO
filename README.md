@@ -52,21 +52,20 @@ git clone https://github.com/YOUR-USERNAME/real-time-chat-app.git
 cd real-time-chat-app
 Install dependencies:
 
-bash
-Copy
-Edit
+
 npm install
 Start the server:
 
-bash
-Copy
-Edit
+
 node server.js
 Open your browser:
 
 
 http://localhost:3000
 📸 Screenshots
+https://github.com/gbyGaurav/Real-Time-Chat-App-using-Socket.IO/blob/62d354cffe7519d0e0e2300e92d5b3ec5fe2c8e4/Screenshot%202025-06-28%20105628.png
+
+https://github.com/gbyGaurav/Real-Time-Chat-App-using-Socket.IO/blob/62d354cffe7519d0e0e2300e92d5b3ec5fe2c8e4/Screenshot%202025-06-28%20105619.png
 
 
 📦 Deployment
